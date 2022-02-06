@@ -111,9 +111,18 @@ const img3 = "https://picsum.photos/200/300";
 
 const name = 'Abdul Daim';
 
+const heading = {
+    color: '#91d0fa',
+    textAlign: 'center',
+    textTransform: 'capitalize',
+    fontWeight: 'bold',
+    textShadow: '0px 2px 4px #313333',
+    margin: '50px 0'
+};
+
 ReactDOM.render(
     <>
-        <h2 className="heading">{`My name is ${name}`}</h2>
+        <h2 style={heading}>{`My name is ${name}`}</h2>
         <div className="img_div">
             <img src={img1} alt="Image"/>
             <img src={img2} alt="Image"/>
