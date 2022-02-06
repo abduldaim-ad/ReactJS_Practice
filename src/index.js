@@ -108,7 +108,6 @@ import './index.css';
 const img1 = "https://picsum.photos/200/300";
 const img2 = "https://picsum.photos/200/300";
 const img3 = "https://picsum.photos/200/300";
-const img4 = "https://picsum.photos/200/300";
 
 const name = 'Abdul Daim';
 
