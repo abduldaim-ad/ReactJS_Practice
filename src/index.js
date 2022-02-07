@@ -101,33 +101,44 @@
 
 
 //////////////////////// CSS Styling in ReactJS ////////////////////
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+
+// const img1 = "https://picsum.photos/200/300";
+// const img2 = "https://picsum.photos/200/300";
+// const img3 = "https://picsum.photos/200/300";
+
+// const name = 'Abdul Daim';
+
+// const heading = {
+//     color: '#91d0fa',
+//     textAlign: 'center',
+//     textTransform: 'capitalize',
+//     fontWeight: 'bold',
+//     textShadow: '0px 2px 4px #313333',
+//     margin: '50px 0'
+// };
+
+// ReactDOM.render(
+//     <>
+//         <h2 style={heading}>{`My name is ${name}`}</h2>
+//         <div className="img_div">
+//             <img src={img1} alt="Image"/>
+//             <img src={img2} alt="Image"/>
+//             <img src={img3} alt="Image"/>
+//         </div>
+//      </>
+//     , document.getElementById("root")
+// )
+
+
+
+////////////////////// REACT COMPONENTS /////////////////////
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-
-const img1 = "https://picsum.photos/200/300";
-const img2 = "https://picsum.photos/200/300";
-const img3 = "https://picsum.photos/200/300";
-
-const name = 'Abdul Daim';
-
-const heading = {
-    color: '#91d0fa',
-    textAlign: 'center',
-    textTransform: 'capitalize',
-    fontWeight: 'bold',
-    textShadow: '0px 2px 4px #313333',
-    margin: '50px 0'
-};
+import App from './App';
 
 ReactDOM.render(
-    <>
-        <h2 style={heading}>{`My name is ${name}`}</h2>
-        <div className="img_div">
-            <img src={img1} alt="Image"/>
-            <img src={img2} alt="Image"/>
-            <img src={img3} alt="Image"/>
-        </div>
-     </>
-    , document.getElementById("root")
-)
+        <App/>, document.getElementById('root')
+);
