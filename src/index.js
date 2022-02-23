@@ -135,10 +135,30 @@
 
 
 ////////////////////// REACT COMPONENTS /////////////////////
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+
+// ReactDOM.render(
+//         <App/>, document.getElementById('root')
+// );
+
+
+///////////////////// IMPORT/EXPORT ////////////////////////////
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import anynamehere_default, {language, myName, myName_func2} from './App';
+//Wild Cards Below: (Not Recommended)
+//import * as question from './App';
 
 ReactDOM.render(
-        <App/>, document.getElementById('root')
+  <>
+    <ol>
+      <li>Abdul Daim</li>
+      <li>{anynamehere_default}</li>
+      <li>{language}</li>
+      <li>{myName()}</li>
+      <li>{myName_func2()}</li>
+    </ol>
+  </>, document.getElementById('root')
 );
