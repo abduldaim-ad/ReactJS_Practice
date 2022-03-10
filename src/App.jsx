@@ -19,22 +19,22 @@
 
 // export default App;
 
-const youtuber = "YouTube Channel";
+// const youtuber = "YouTube Channel";
 
-const language = "React js";
+// const language = "React js";
 
-function myName(){
-    let name = 'AD'
-    return name;
-}
+// function myName(){
+//     let name = 'AD'
+//     return name;
+// }
 
-function myName_func2(){
-    let name = "Abdul Daim"
-    return name;
-}
+// function myName_func2(){
+//     let name = "Abdul Daim"
+//     return name;
+// }
 
-export default youtuber;
+// export default youtuber;
 
-export {language, myName, myName_func2};
+// export {language, myName, myName_func2};
 
 // We can use default for only one object/variable

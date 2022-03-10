@@ -145,20 +145,30 @@
 
 
 ///////////////////// IMPORT/EXPORT ////////////////////////////
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import anynamehere_default, {language, myName, myName_func2} from './App';
+// //Wild Cards Below: (Not Recommended)
+// //import * as question from './App';
+
+// ReactDOM.render(
+//   <>
+//     <ol>
+//       <li>Abdul Daim</li>
+//       <li>{anynamehere_default}</li>
+//       <li>{language}</li>
+//       <li>{myName()}</li>
+//       <li>{myName_func2()}</li>
+//     </ol>
+//   </>, document.getElementById('root')
+// );
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import anynamehere_default, {language, myName, myName_func2} from './App';
-//Wild Cards Below: (Not Recommended)
-//import * as question from './App';
+import Navbar from './Navbar';
 
 ReactDOM.render(
   <>
-    <ol>
-      <li>Abdul Daim</li>
-      <li>{anynamehere_default}</li>
-      <li>{language}</li>
-      <li>{myName()}</li>
-      <li>{myName_func2()}</li>
-    </ol>
-  </>, document.getElementById('root')
-);
+    <Navbar/>
+  </>, 
+  document.getElementById('root'));
